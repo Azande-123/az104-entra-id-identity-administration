@@ -29,13 +29,17 @@ them into appropriate security groups.
 
 ## Technologies
 
-...
+Potential extensions to this project include:
+
+- Automating user creation with PowerShell
+- Automating group creation with Azure CLI
+- Implementing dynamic groups
+- Implementing Azure RBAC
+- Exploring additional Microsoft Entra security controls
 
 ## Architecture
 
 ![Architecture](Project_structure_ss.png)
-
----
 
 ## Implementation
 
@@ -65,7 +69,7 @@ The account was configured with:
 | Account | Enabled |
 | Usage Location | United States |
 
-![Internal User](screenshots/02-user-created.png)
+![Internal User](Creating_user1_ss.png)
 
 **Result:** The internal user was successfully created and configured.
 
@@ -79,8 +83,9 @@ email address.
 The guest account was configured with the appropriate job title,
 department and usage location.
 
-![Guest User](screenshots/03-guest-user-created.png)
+![Guest User](Creating_Ext_User_ss.png)
 
+![Guest User Email](Ext_User_Invite_Email_ss.png)
 **Result:** The external guest identity was successfully created.
 
 ---
@@ -99,7 +104,7 @@ Configuration:
 | Group Name | IT Lab Administrators |
 | Membership Type | Assigned |
 
-![Security Group](screenshots/04-security-group-created.png)
+![Security Group](Creating_Admin_Grp_ss.png)
 
 **Result:** The `IT Lab Administrators` security group was successfully
 created.
