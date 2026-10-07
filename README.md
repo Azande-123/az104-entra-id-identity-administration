@@ -48,12 +48,11 @@ Potential extensions to this project include:
 I accessed Microsoft Entra ID through the Azure portal and reviewed
 the tenant configuration.
 
-![Microsoft Entra ID Overview](screenshots/01-entra-id-overview.png)
+![Microsoft Entra ID Overview](Microsoft_Entra_ID_ss.png)
 
 **Result:** Microsoft Entra ID was successfully accessed and used as
 the identity management platform for the lab.
 
----
 
 ### 2. Create an Internal User
 
@@ -73,7 +72,6 @@ The account was configured with:
 
 **Result:** The internal user was successfully created and configured.
 
----
 
 ### 3. Create an External Guest User
 
@@ -88,7 +86,6 @@ department and usage location.
 ![Guest User Email](Ext_User_Invite_Email_ss.png)
 **Result:** The external guest identity was successfully created.
 
----
 
 ### 4. Create the Security Group
 
@@ -109,17 +106,15 @@ Configuration:
 **Result:** The `IT Lab Administrators` security group was successfully
 created.
 
----
 
 ### 5. Configure Group Ownership
 
 Configured myself as an owner of the `IT Lab Administrators` group.
 
-![Group Owner](screenshots/05-group-owner.png)
+![Group Owner](Making_Me_Owner_ss.png)
 
 **Result:** Group ownership was successfully configured.
 
----
 
 ### 6. Add Group Members
 
@@ -128,12 +123,11 @@ Added the following users to the security group:
 - `az104-user1`
 - External guest user
 
-![Group Members](screenshots/06-group-members.png)
+![Group Members](Adding_Members_ss.png)
 
 **Result:** Both users were successfully added to the
 `IT Lab Administrators` security group.
 
----
 
 ## Security Considerations
 
