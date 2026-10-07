@@ -33,7 +33,7 @@ them into appropriate security groups.
 
 ## Architecture
 
-![Architecture](diagrams/architecture.png)
+![Architecture](Project_structure_ss.png)
 
 ---
 
